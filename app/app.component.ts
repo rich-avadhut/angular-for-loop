@@ -8,10 +8,10 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'github';
   outdoorGames = {};
-  indoorGanes = [];
+  indoorGames = [];
   constructor(){
-    this.indoorGanes = ["Snooker","Squash","Bowling","Table Tennis","Badminton","Chess","Carem"];
-    
+    this.indoorGames = ["Snooker","Squash","Bowling","Table Tennis","Badminton","Chess","Carem"];
+
     this.outdoorGames = [
       {
         "id": 1,
