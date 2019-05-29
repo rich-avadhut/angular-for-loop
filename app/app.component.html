@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h3 class="center mt-4">Indoor Games</h3>
+      <ul class="list-group">
+        <li *ngFor="let game of indoorGames" class="list-group-item">{{game}}</li>
+      </ul>
+      <h3 class="center mt-4">Outdoor Games</h3>
+      <ul class="list-group">
+        <li *ngFor="let game of outdoorGames" class="list-group-item">{{game.name}}</li>
+      </ul>
+    </div>
+  </div>
+</div>
