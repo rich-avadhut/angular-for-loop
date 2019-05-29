@@ -1,6 +1,6 @@
 # angular-for-loop
 
-Here is the example of Switch-Case in angular.
+Here is the example of for in angular.
 
 1. Create an array & object in the app.componenet.ts file.
 Here variable `indoorGames` is an array & variable `outdoorGames` as an object
